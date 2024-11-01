@@ -1,0 +1,74 @@
+{
+    "key": "kmdg_simple_rc_3",
+    "title": "[Simple RC] Post meta",
+    "fields": [
+        {
+            "key": "field_5f8a1747ec60d",
+            "label": "Image Style",
+            "name": "image_style",
+            "type": "select",
+            "instructions": "Should the featured image be Cover (full width) or Contain (has whitespace, is useful for Logos)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "cover": "Cover",
+                "contain": "Contain"
+            },
+            "default_value": "cover",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f8a178aec60e",
+            "label": "Image Position",
+            "name": "image_position",
+            "type": "select",
+            "instructions": "Should the image be aligned top, middle, or bottom?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "top": "Top",
+                "center": "Middle",
+                "bottom": "Bottom"
+            },
+            "default_value": "top",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "simple-resources"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+}
